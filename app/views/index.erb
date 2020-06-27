@@ -1,1 +1,5 @@
-<input type="submit">
+
+<% @articles.each do |article|%>
+<%= article.title %>
+<%= article.content %>
+<% end %>
